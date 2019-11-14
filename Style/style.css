@@ -1,11 +1,43 @@
-body{
-
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-div{
-    font: 200;
-    height: 100vh;
-    background-image: url(Media/VideoGame.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 255, 68, 0.534),
+      rgba(255, 0, 0, 0.541)
+    ),
+    url(Media/VideoGame.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div {
+  color: greenyellow;
+  font-family: inherit;
+  height: 100vh;
+  font-size: 50px;
+}
+
+#uppercase {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+#list {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+img {
+  -webkit-filter: saturate(100);
+  text-align: center;
 }
