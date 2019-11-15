@@ -39,5 +39,15 @@ ul {
 
 img {
   -webkit-filter: saturate(100);
-  text-align: center;
+  -webkit-filter: invert(100);
+  -webkit-filter: sepia(100);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  height: 25%;
+  top: 80px;
 }
